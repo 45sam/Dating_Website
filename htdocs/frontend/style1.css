@@ -1,0 +1,183 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 24px;
+}
+#navbar ul li{
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3 rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 10px 24px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.rightNav {
+    width: 20%;
+    text-align: right;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    color: rgb(232, 221, 221);
+    padding: 18px 200px;
+    height:280px;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+   
+}
+
+#home::before{
+    content: "";
+    position:absolute;
+    background: url('img3.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+.btn{
+    background-color: #f89306; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px 30px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as block element */
+  font-size: 16px; /* Font size */
+  border-radius: 18px; /* Rounded corners */
+  cursor: pointer; /* Add cursor on hover */
+}
+.btn:hover {
+    background-color: #ff9102; /* Dark green background on hover */
+  }
+  
+.btn:active {
+    border: 1px solid #f7a102; /* Add border on click */
+  }
+  #services{
+    margin: 200px;
+    display: flex; 
+    padding: 10px;  
+   
+}
+#services .box{
+    border: 2px solid rgb(255, 159, 5);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px;
+}
+.center{
+    text-align: center;
+}
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 300px;
+}
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  .footer-section {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff5e3a;
+  }
+  
+  .fa-facebook-f, .fa-twitter, .fa-instagram {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+    
+  
